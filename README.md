@@ -1,3 +1,6 @@
+# Bu bot neyin nesi?
+Bu bot sayesinde mevcut sunucunuzun kanallarını ve rollerini Discord'un sağlamış olduğu **Server Template** ile birlikte yeniden oluşturabileceksiniz.
+
 # Bot nasıl çalıştırılıyor?
 - Botu kullanmak için öncelikle [node.js](https://nodejs.org/dist/v20.15.0/node-v20.15.0-x64.msi) indirmeniz ve kurmanız gerekmektedir.
 - Daha sonra projeyi [ZIP](https://www.win-rar.com/postdownload.html?&L=5) olarak indirip klasöre çıkartın ve [Visual Studio Code](https://code.visualstudio.com/)'u bilgisayarınıza indirip kurun.
