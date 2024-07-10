@@ -6,6 +6,7 @@
 - Daha sonra klavyenizden sırasıyla **CTRL**, **Shift** ve **+** tuşlarına basın veya üst taraftan **Terminal** butonuna basıp **New Terminal** seçeneğini seçin.
 
 Botun çalışması için gerekli kütüphaneyi ve package'ı yüklemek için bu iki komutu terminale girin:
+
 `npm init -y`
 `npm install dotenv discord.js axios`
 
