@@ -1,0 +1,20 @@
+{
+    "mesajlar": {
+        "botHazir": "sizin icin aktif oldu vallah billah",
+        "yetkiYok": "Bu komutu kullanma izniniz yok.",
+        "kurulumSihirbazi": "Sunucu Kurulum Sihirbazı",
+        "kurulumAciklama": "Merhaba, öncelikle sunucu kurulum sihirbazına hoş geldin!\n\n'**.env**' dosyası içerisindeki '**templateUrl**' kısmını doldurmayı unutma. Kuruluma başlamak için aşağıdaki '**Başla**' butonuna tıklaman gerekiyor.",
+        "baslaButonu": "🧾 Başla",
+        "kurulumSecenekBaslik": "Kurulum Seçenekleri",
+        "kurulumSecenekAciklamasi": "Nelerin kopyalanmasını istiyorsanız aşağıdaki 3 butondan birini seçin.",
+        "rolKopyalaButon": "🖐 Roller",
+        "kanalVeKategoriKopyalaButon": "💫 Kanal ve Kategoriler",
+        "hepsiniKopyalaButon": "🎈 Hepsi",
+        "rollerKopyalandiMesaj": "Roller başarıyla kopyalandı!",
+        "kurulumTamamlandi": "Kurulum tamamlandı!",
+        "kanallarKopyalandiMesaj": "Kanallar ve Kategoriler başarıyla kopyalandı!",
+        "kurulumTamamlandiMesaj": "Sunucu kurulumu başarıyla tamamlandı!",
+        "kurulumSonuAciklama": "Güncel Discord bot altyapılarını elde etmek için <@!243812922613039104>'un [GitHub](https://github.com/yqkut) profilini ziyaret etmeyi unutma!",
+        "hataMesaj": "Bir hata oluştu, lütfen tekrar deneyin."
+    }
+  }
