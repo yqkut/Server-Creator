@@ -11,4 +11,5 @@ Botun çalışması için gerekli kütüphaneyi ve package'ı yüklemek için bu
 `npm install dotenv discord.js axios`
 
 Sonra botu çalıştırmak için yine terminale `node .\index.js` komutunu girin.
+
 Ve işte bu kadar! Artık botu kullanmaya başlayabilirsiniz. (Destek amaçlı repoyu yıldızlarsanız çok sevinirim <3)
