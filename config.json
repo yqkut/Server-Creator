@@ -3,7 +3,7 @@
         "botHazir": "sizin icin aktif oldu vallah billah",
         "yetkiYok": "Bu komutu kullanma izniniz yok.",
         "kurulumSihirbazi": "Sunucu Kurulum Sihirbazı",
-        "kurulumAciklama": "Merhaba, öncelikle sunucu kurulum sihirbazına hoş geldin!\n\n'**.env**' dosyası içerisindeki '**templateUrl**' kısmını doldurmayı unutma. Kuruluma başlamak için aşağıdaki '**Başla**' butonuna tıklaman gerekiyor.",
+        "kurulumAciklama": "Merhaba, öncelikle sunucu kurulum sihirbazına hoş geldin!\n\nKuruluma başlamak için aşağıdaki '**Başla**' butonuna tıklaman gerekiyor.",
         "baslaButonu": "🧾 Başla",
         "kurulumSecenekBaslik": "Kurulum Seçenekleri",
         "kurulumSecenekAciklamasi": "Nelerin kopyalanmasını istiyorsanız aşağıdaki 3 butondan birini seçin.",
