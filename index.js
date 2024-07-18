@@ -23,7 +23,6 @@ const client = new Client({
 });
 
 const token = process.env.BOT_TOKEN;
-const templateUrl = process.env.TEMPLATE_URL;
 const ownerID = process.env.OWNERID;
 
 client.once('ready', async () => {
@@ -33,6 +32,10 @@ client.once('ready', async () => {
         new SlashCommandBuilder()
             .setName('sunucukur')
             .setDescription('Sunucu kurulumunu yapar.')
+            .addStringOption(option => 
+                option.setName('template_url')
+                    .setDescription('Sunucu şablon URL\'si gir:')
+                    .setRequired(true))
     ];
 
     await client.application.commands.set(commands);
@@ -44,6 +47,9 @@ client.on('interactionCreate', async interaction => {
             if (interaction.user.id !== ownerID) {
                 return interaction.reply({ content: config.mesajlar.yetkiYok, ephemeral: true });
             }
+
+            const templateUrl = interaction.options.getString('template_url');
+            interaction.client.customData = { templateUrl };
 
             const embed = new EmbedBuilder()
                 .setTitle(config.mesajlar.kurulumSihirbazi)
@@ -91,6 +97,7 @@ client.on('interactionCreate', async interaction => {
 
             const guild = interaction.guild;
             const user = interaction.user;
+            const templateUrl = interaction.client.customData.templateUrl;
 
             try {
                 if (interaction.customId === 'copyRoles' || interaction.customId === 'copyAll') {
